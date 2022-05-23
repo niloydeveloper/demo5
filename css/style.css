@@ -1,0 +1,197 @@
+body{
+	color:#fff;
+}
+.main{
+	 background: rgb(0,112,158);
+background: radial-gradient(circle, rgba(0,112,158,0.44579830223104866) 0%, rgba(0,112,158,1) 0%, rgba(0,0,0,1) 100%);
+min-height:100vh;
+width:100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+	padding:150px 0px;
+}
+.login-area{
+	max-width:400px;
+	
+	background:#00709e;
+	margin:0px auto;
+	border:5px solid #022f41;
+	padding:20px;
+	box-shadow: 0 10px 16px rgba(0, 0, 0, 0.12), 0 10px 14px rgba(0, 0, 0, 0.50);
+}
+.radio-2 input{
+	width:30px !important;
+	color:#fff ;
+	
+}
+h2{
+	color:#fff;
+	text-align:center;
+	font-size:30px;
+	text-transform:uppercase;
+	font-weight:600;
+	
+}
+.signup-area{
+	max-width:500px;
+	
+	background:#00709e;
+	margin:0px auto;
+	border:5px solid #022f41;
+	padding:20px;
+	box-shadow: 0 10px 16px rgba(0, 0, 0, 0.12), 0 10px 14px rgba(0, 0, 0, 0.50);
+}
+.signup-area input{
+	width:100%;
+	padding:10px 15px;
+	margin-bottom:20px;
+}
+.signup-area button{
+	width:100%;
+	padding:10px 15px;
+	margin-bottom:20px;
+	border:none;
+	background: #022f41;
+	color:#fff;
+	font-weight:600;
+	transition: all 0.4s ease;
+}
+.signup-area button:hover{
+	background:#021f2a;
+}
+p{
+	color:#fff;
+	font-size:18px;
+	line-height:10px;
+	font-weight:600;
+}
+.image{
+	height:150px;
+	width:150px;
+	border-radius:100%;
+	background:#00709e;
+	border:5px solid #022f41;
+	margin:0px auto;
+	margin-top:-100px;
+	margin-bottom:20px;
+}
+.image img{
+	height:100%;
+	width:100%;
+}
+.login-area input{
+	width:100%;
+	padding:10px 15px;
+	margin-bottom:20px;
+}
+.login-area button{
+	width:100%;
+	padding:10px 15px;
+	margin-bottom:20px;
+	border:none;
+	background: #022f41;
+	color:#fff;
+	font-weight:600;
+	transition: all 0.4s ease;
+}
+.login-area button:hover{
+	background:#021f2a;
+}
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+	margin-bottom:20px;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+.select{
+	margin-bottom:20px;
+}
+select{
+	width:100px;
+	border: none;
+    background: #f1f1f1;
+}
+select:focus{
+    background-color: #ddd;
+    outline: none;
+}
+textarea{
+	width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.signup-area button{
+	width:100%;
+	padding:10px 15px;
+	margin-bottom:20px;
+	border:none;
+	background: #022f41;
+	color:#fff;
+	font-weight:600;
+	transition: all 0.4s ease;
+}
+.signup-area button:hover{
+	background:#021f2a;
+}
